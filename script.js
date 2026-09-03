@@ -22,8 +22,6 @@ const QUESTS = [
   { answerType: "number", answers: ["f"] }      // Quest 6
 ];
 
-const STORAGE_KEY = "diamentowy-testament-mike-johnson-part-1";
-
 const questsContainer = document.querySelector("#quests");
 const progressBar = document.querySelector("#progressBar");
 const progressText = document.querySelector("#progressText");
