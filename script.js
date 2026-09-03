@@ -11,14 +11,15 @@
 */
 
 const NEXT_PART_CODE = "1309"; // <-- CHANGE THE CODE HERE
+const STORAGE_KEY = "diamentowy-testament-" + window.location.pathname;
 
 const QUESTS = [
-  { answerType: "text",   answers: ["answer1"] }, // Quest 1
-  { answerType: "number", answers: ["123"] },     // Quest 2
-  { answerType: "text",   answers: ["answer3"] }, // Quest 3
-  { answerType: "number", answers: ["456"] },     // Quest 4
-  { answerType: "text",   answers: ["answer5"] }, // Quest 5
-  { answerType: "number", answers: ["789"] }      // Quest 6
+  { answerType: "text",   answers: ["a"] }, // Quest 1
+  { answerType: "number", answers: ["b"] },     // Quest 2
+  { answerType: "text",   answers: ["c"] }, // Quest 3
+  { answerType: "number", answers: ["d"] },     // Quest 4
+  { answerType: "text",   answers: ["e"] }, // Quest 5
+  { answerType: "number", answers: ["f"] }      // Quest 6
 ];
 
 const STORAGE_KEY = "diamentowy-testament-mike-johnson-part-1";
